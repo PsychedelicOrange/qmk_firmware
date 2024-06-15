@@ -23,5 +23,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 //#define MASTER_LEFT
 //#define MASTER_RIGHT
-
+//#define EE_HANDS
 #define EE_HANDS
+#define COMBO_TERM 25        // how quickly all combo keys must be pressed in succession to trigger
+#define COMBO_MUST_HOLD_MODS // if a combo triggers a modifier, only trigger when the combo is held
+#define COMBO_HOLD_TERM 175  // how long at least one of the combo keys must be held to trigger
+#define TAPPING_TERM 200  // how long key must be held before mod key is trigger
+#define PERMISSIVE_HOLD // when dual-role key is held and then another key is pressed and released while dual role key is still
+                        // being held, then the hold action is triggered immediately (on release)
+
